@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy:
-    uses: cathe-org/actions/.github/workflows/deploy/website.yml@main
+    uses: cathe-org/actions/.github/workflows/deploy-site.yml@main
     with:
       site_directory: /var/www/jpears.me
     secrets: inherit
